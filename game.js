@@ -352,7 +352,8 @@ function engagePolonius() {
   const acceptRecommendationButton = document.createElement("button");
   acceptRecommendationButton.textContent = "Accept Polonius's Recommendation";
   acceptRecommendationButton.addEventListener("click", () => {
-    backgroundElement.style.backgroundImage = 'url("Images/7.png")';
+    backgroundElement.style.backgroundImage =
+      'url("Images/politicalEnding.png")';
 
     endGame(
       "Ending 6: Political Maneuver\nIn this fateful moment, you heed Polonius's counsel and choose a path of political intrigue over hasty revenge. As you delve into the convoluted world of court politics, your decisions trigger a chain of events that will significantly alter the course of Elsinore's destiny. Plots and schemes unfold, alliances are made and broken, and your influence over the kingdom's future deepens. You are now at the heart of the intricate web of power struggles, and your choices will determine Elsinore's fate, ultimately leading to a unique ending that reflects the complexity of your political maneuvering..."
