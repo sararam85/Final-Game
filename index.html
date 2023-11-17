@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap"
+    />
+    <link rel="stylesheet" type="text/css" href="/Style/style.css" />
+  </head>
+
+  <body>
+    <div id="background-image"></div>
+    <div id="content-box">
+      <div id="story" class="content">
+        <h1 id="level-title"></h1>
+
+        <p id="message" class="fade-in-effect"></p>
+
+        <div id="buttons"></div>
+
+        <div id="inventory">
+          <img src="/Images/key.png" id="key-photo" onclick="findKey()" />
+          <img
+            src="/Images/Dagger.png"
+            id="dagger-photo"
+            onclick="findDagger()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
