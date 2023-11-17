@@ -321,12 +321,12 @@ function endGame(endingText) {
         backgroundElement.style.backgroundImage =
           'url("Images/loyalEnding.png")';
       } else {
-        backgroundElement.style.backgroundImage = 'url("Images/77.png")'; // Replace with your default background for Level 5
+        backgroundElement.style.backgroundImage = 'url("Images/77.png")';
       }
       break;
 
     default:
-      backgroundElement.style.backgroundImage = 'url("Images/111.png")'; // Replace with your default background for other levels
+      backgroundElement.style.backgroundImage = 'url("Images/111.png")';
       break;
   }
   levelTitle.textContent = "Hamlet's Adventure - Tragic Ending";
