@@ -85,7 +85,7 @@ const levels = [
     title: "Hamlet's Adventure - Level 5",
     message:
       "The tapestry of fate is woven before Hamlet, presenting a choice as profound as the deepening shadows of Elsinore Castle. The weight of destiny hangs heavy, and it is in this moment that the world trembles with anticipation. What path will you choose, and what echoes shall your decision etch in the annals of Elsinore's history? The climax awaits your command...",
-    background: "Images/7.png",
+    background: "Images/77.png",
     buttons: [
       {
         text: "Pursue Revenge",
