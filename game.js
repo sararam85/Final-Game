@@ -71,6 +71,7 @@ const levels = [
     buttons: [
       {
         text: "Engage Polonius",
+        background: "Images/politicalEnding.png",
         action: () => engagePolonius(),
       },
       {
