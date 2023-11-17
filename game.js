@@ -308,7 +308,7 @@ function endGame(endingText) {
     case 4:
       if (lowerCaseEndingText.includes("ending 6")) {
         backgroundElement.style.backgroundImage =
-          'url("Images/PoliticalEnding.png")';
+          'url("Images/politicalEnding.png")';
       } else {
         backgroundElement.style.backgroundImage = 'url("Images/4444.png")';
       }
