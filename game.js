@@ -376,10 +376,10 @@ function clearPlayerInventory() {
 /**
  * Logs a message indicating that the key has been found.
  */
-// function findKey() {
-//   console.log("Key found!");
-//   console.log(playerInventory);
-// }
+function findKey() {
+  console.log("Key found!");
+  console.log(playerInventory);
+}
 /**
  * Logs a message indicating that the dagger has been found.
  */
