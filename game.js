@@ -121,15 +121,15 @@ function saveToLocalStorage(key, value) {
  * @type {number}
  */
 let currentLevel = parseInt(localStorage.getItem("currentLevel")) || 0;
-
-if (currentLevel >= 0 && currentLevel < levels.length) {
-  // Player has a saved level within the valid range, so resume from that level
+// Check if playerInventory is not empty (i.e., it's not a new game)
+if (playerInventory.length > 0) {
+  // Player has items in the inventory, so set the appropriate level to resume
   startLevel(currentLevel);
 } else {
-  // Player is starting a new game or has an invalid saved level, so begin from the first level
+  // Player is starting a new game, so begin from the first level
+
   startLevel(0);
 }
-
 /**
  * Starts a new level or resumes the game from the saved level.
  * @param {number} levelIndex - The index of the level to start.
@@ -142,7 +142,6 @@ function startLevel(levelIndex) {
     playerInventory
   );
   console.log("Setting up level:", levelIndex);
-  saveToLocalStorage("currentLevel", currentLevel);
   if (levelIndex === 0) {
     currentLevel = 0;
     playerInventory = [];
